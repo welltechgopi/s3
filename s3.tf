@@ -34,7 +34,7 @@ resource "aws_s3_bucket" "my_bucket" {
 resource "aws_s3_bucket" "my_bucket" {
 
   versioning {
-     enabled = true
+     enabled = false
   }
   
 }
