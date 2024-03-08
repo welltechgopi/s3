@@ -3,3 +3,9 @@ Hello world
 How are you
 
 doing good established welltech
+
+we are offering aws devops classes
+
+it has terraform
+
+git , docker , k8s
