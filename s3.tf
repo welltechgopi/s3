@@ -27,3 +27,19 @@ resource "aws_s3_bucket" "my_bucket" {
   }
   
 }
+
+resource "aws_s3_bucket" "my_bucket" {
+
+  versioning {
+     enabled = true
+  }
+  
+}
+
+resource "aws_s3_bucket" "commit1" {
+
+  versioning {
+     enabled = true
+  }
+  
+}
